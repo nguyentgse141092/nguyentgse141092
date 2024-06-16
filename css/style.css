@@ -1,0 +1,38 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 120% ;
+    background-color: rgb(208, 216, 223);
+    
+}
+header{
+    background-color: rgb(70, 116, 65);
+    display: inline;
+}
+nav{
+    background-color: aquamarine;
+}
+main{
+    line-height: 100%;
+    color: rgb(18, 21, 23);
+    background-color: azure;
+    
+   
+}
+
+
+footer{
+    display: block;
+    background-color: seagreen;
+    color: rgb(204, 208, 211);
+}
+li{
+    display: inline-block;
+    width: 100%;
+}
+h1{
+    text-align: left;
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(113, 83, 43);
+    display: block;
+}
+
