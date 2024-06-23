@@ -1,23 +1,11 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 120% ;
-    background-color: rgb(208, 216, 223);
+    background-color: rgb(183, 190, 197);
     
 }
-header{
-    background-color: rgb(70, 116, 65);
-    display: inline;
-}
-nav{
-    background-color: aquamarine;
-}
-main{
-    line-height: 100%;
-    color: rgb(18, 21, 23);
-    background-color: azure;
-    
-   
-}
+
+
 
 
 footer{
@@ -27,12 +15,73 @@ footer{
 }
 li{
     display: inline-block;
-    width: 100%;
+    
+    background-color: yellowgreen;
+}
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
 h1{
-    text-align: left;
+    text-align: center;
     font-family: 'Times New Roman', Times, serif;
     color: rgb(113, 83, 43);
     display: block;
+    font-size: 200%;
+}
+
+nav a{
+    text-decoration: none;
+}
+nav{
+    display: block;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+.current{
+    text-transform: uppercase;
+    background-color: red;
+}
+
+header img{
+    width: 10%;
+    position: relative;
+    top: 20%;
+    left: 43%;
+}
+
+.gird-container{
+    display: grid;
+    grid-template-columns: 40% 40%;
+    gap: 10px;
+    justify-content: center;
+
+}
+
+/* div img{
+    width: 100%;
+} */
+
+.gird-container img{
+    width: 100%;
+}
+
+.main-backgournd{
+    background-color: rgb(177, 204, 107);
+    font-size: 150%;
+}
+
+.flex{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    gap: 5px;
+}
+
+.flex img{
+    width: 20%;
 }
 
